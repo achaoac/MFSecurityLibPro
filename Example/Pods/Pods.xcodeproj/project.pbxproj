@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		65558C322AD2675CD26AF1FA94F66E97 /* MFSecurityLibPro */ = {
+		CFF87F2D8ADDD1E06B104AAFFA7C829E /* MFSecurityLib */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D4F557DBDC51CE42F364AA3E576CF10B /* Build configuration list for PBXAggregateTarget "MFSecurityLibPro" */;
+			buildConfigurationList = 24261FEEB6E3048CCB628A2B30330102 /* Build configuration list for PBXAggregateTarget "MFSecurityLib" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = MFSecurityLibPro;
+			name = MFSecurityLib;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3505D1CC27F4B69FEDD0DC0D84EC6EF2 /* Pods-MFSecurityLibPro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 168AF71A7CF10CDC36EEDAE75A6C72FD /* Pods-MFSecurityLibPro_Example-dummy.m */; };
+		2D43BC069B6B66EDB1FDE0290AF1C731 /* Pods-MFSecurityLibPro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 168AF71A7CF10CDC36EEDAE75A6C72FD /* Pods-MFSecurityLibPro_Example-dummy.m */; };
 		5A5C87022E8299C996603F8A94894AC5 /* Pods-MFSecurityLibPro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 590FF8C4DF1D4D665DE5340A321E293D /* Pods-MFSecurityLibPro_Tests-dummy.m */; };
-		600A2332E0A7D90018F00057B50C5106 /* Pods-MFSecurityLibPro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08BCD6B10B043C0183073F3BE31F387C /* Pods-MFSecurityLibPro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EE1DCAFADF55E809CF4C6619A001C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B3A3FCFD558514D912DE2AD2F5EBA237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77B4A551BD5B53B6EC3444609ED63DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DE03CF5230FA596B429CED5AA8C7C56E /* Pods-MFSecurityLibPro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7BDFE95858B0751329FA8E493D2D58 /* Pods-MFSecurityLibPro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E03F1976D687DEEB45CBF2E3F19E309B /* Pods-MFSecurityLibPro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08BCD6B10B043C0183073F3BE31F387C /* Pods-MFSecurityLibPro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7DBD11E0F88D271B3F16D0CDAC7B9189 /* PBXContainerItemProxy */ = {
+		AC040F7C5B8AC5A37F0A2312BF0AA5D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65558C322AD2675CD26AF1FA94F66E97;
-			remoteInfo = MFSecurityLibPro;
+			remoteGlobalIDString = CFF87F2D8ADDD1E06B104AAFFA7C829E;
+			remoteInfo = MFSecurityLib;
 		};
 		E16E4F62B636F65C2E812D0653163693 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -46,39 +46,39 @@
 
 /* Begin PBXFileReference section */
 		08BCD6B10B043C0183073F3BE31F387C /* Pods-MFSecurityLibPro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFSecurityLibPro_Example-umbrella.h"; sourceTree = "<group>"; };
-		0B64192F0732DF109D0B367B013C4A2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		168AF71A7CF10CDC36EEDAE75A6C72FD /* Pods-MFSecurityLibPro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFSecurityLibPro_Example-dummy.m"; sourceTree = "<group>"; };
+		193A8AD0C878AF228251A0808511C340 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1EE3D2CEEFA3717CB400A5EB8AFCD882 /* Pods-MFSecurityLibPro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFSecurityLibPro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		357436D082BEACBBFBCC86CC0D1EB936 /* Pods-MFSecurityLibPro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFSecurityLibPro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		38A20EA6A2A7C7818FABFB4400E74967 /* Pods-MFSecurityLibPro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFSecurityLibPro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B996B093A7B0236CBA836B1DB8F511F /* MFSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MFSecurity.framework; path = MFSecurityLibPro/Classes/MFSecurity.framework; sourceTree = "<group>"; };
+		46D98E4AD5E86F1C8721F70006576A06 /* MFSecurityLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MFSecurityLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		55C0854B7AE729AC37B039EFF763A97B /* Pods-MFSecurityLibPro_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MFSecurityLibPro_Example"; path = Pods_MFSecurityLibPro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D012CCF9925A2C62E75F69A95F763A /* MFSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MFSecurity.framework; path = MFSecurityLibPro/Classes/MFSecurity.framework; sourceTree = "<group>"; };
 		590FF8C4DF1D4D665DE5340A321E293D /* Pods-MFSecurityLibPro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFSecurityLibPro_Tests-dummy.m"; sourceTree = "<group>"; };
 		5D785883B69D5E035EED2E0F943BA682 /* Pods-MFSecurityLibPro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MFSecurityLibPro_Example.modulemap"; sourceTree = "<group>"; };
 		65E8C174918C96DBDEB6E4504942727D /* Pods-MFSecurityLibPro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFSecurityLibPro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76D8FA9DB60DEFC5AA94352AE6FA2086 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7816356937A0C49D9A5BDF76D22EDA99 /* MFSecurityLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFSecurityLib.release.xcconfig; sourceTree = "<group>"; };
+		89B5DA2992E8A0877B10E76BA90C61B1 /* MFSecurityLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFSecurityLib.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A486D2078D1EB67A1BC14B6B6F53362D /* Pods-MFSecurityLibPro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFSecurityLibPro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8F959AD4F9FD4822D1B5A34BF3FEAF0 /* Pods-MFSecurityLibPro_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFSecurityLibPro_Example-Info.plist"; sourceTree = "<group>"; };
 		B4ED5162238F6D367A2939E2F7883788 /* Pods-MFSecurityLibPro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFSecurityLibPro_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BABE62D83933C3F1E5B667FEA387B1DE /* Pods-MFSecurityLibPro_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MFSecurityLibPro_Tests"; path = Pods_MFSecurityLibPro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7BDFE95858B0751329FA8E493D2D58 /* Pods-MFSecurityLibPro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFSecurityLibPro_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CE72FEB310238A186AAFE2E9C37AE180 /* MFSecurityLibPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFSecurityLibPro.debug.xcconfig; sourceTree = "<group>"; };
 		D0CC86D7E1E2B3E000CFC70895752CDB /* Pods-MFSecurityLibPro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFSecurityLibPro_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2F6040891A110CAA7E44F86378C2493 /* Pods-MFSecurityLibPro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MFSecurityLibPro_Tests.modulemap"; sourceTree = "<group>"; };
-		DD6A304AC777C8A2F090BE8CA4C39072 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EEC993787797AAB5BF42A3017F82DB22 /* Pods-MFSecurityLibPro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFSecurityLibPro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0C3EC032FAD651F8F331140F012F879 /* MFSecurityLibPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFSecurityLibPro.release.xcconfig; sourceTree = "<group>"; };
 		F4A138A6D7B7D2D9D5EFD169CDD737A8 /* Pods-MFSecurityLibPro_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFSecurityLibPro_Tests-Info.plist"; sourceTree = "<group>"; };
-		FCE25540A66B7DBA68D0803A718D8E2F /* MFSecurityLibPro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MFSecurityLibPro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4063E2DE032D27A50C405A5C8006EF1D /* Frameworks */ = {
+		52725ACA844F688A986F103C8ECE342A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A3FCFD558514D912DE2AD2F5EBA237 /* Foundation.framework in Frameworks */,
+				77B4A551BD5B53B6EC3444609ED63DDD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,14 +93,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2709D06C0964D73133761DEF34E3FB33 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7E1C896704BC818F1A46A64ED61501FD /* MFSecurityLibPro */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		301AFCC65988C4D6F47846C9AADED404 /* Pods-MFSecurityLibPro_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,16 +118,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3E607EE8B1C39A1255110EEC91D16973 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0B64192F0732DF109D0B367B013C4A2D /* LICENSE */,
-				FCE25540A66B7DBA68D0803A718D8E2F /* MFSecurityLibPro.podspec */,
-				DD6A304AC777C8A2F090BE8CA4C39072 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,25 +126,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7E1C896704BC818F1A46A64ED61501FD /* MFSecurityLibPro */ = {
+		652E0B6378B5AB4EFF5AE14FC4448110 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9374345D10ED554312AF99668880ECF /* Frameworks */,
-				3E607EE8B1C39A1255110EEC91D16973 /* Pod */,
-				82622A205FE51929459B0DD11070F4C0 /* Support Files */,
+				56D012CCF9925A2C62E75F69A95F763A /* MFSecurity.framework */,
 			);
-			name = MFSecurityLibPro;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		82622A205FE51929459B0DD11070F4C0 /* Support Files */ = {
+		6A09EECD9390B73C885333B72DB3303A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CE72FEB310238A186AAFE2E9C37AE180 /* MFSecurityLibPro.debug.xcconfig */,
-				F0C3EC032FAD651F8F331140F012F879 /* MFSecurityLibPro.release.xcconfig */,
+				193A8AD0C878AF228251A0808511C340 /* LICENSE */,
+				46D98E4AD5E86F1C8721F70006576A06 /* MFSecurityLib.podspec */,
+				76D8FA9DB60DEFC5AA94352AE6FA2086 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MFSecurityLibPro";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9199177B0042AE2A75986CB074D4414B /* Pods-MFSecurityLibPro_Example */ = {
@@ -181,19 +160,29 @@
 			path = "Target Support Files/Pods-MFSecurityLibPro_Example";
 			sourceTree = "<group>";
 		};
-		B9374345D10ED554312AF99668880ECF /* Frameworks */ = {
+		A09495C591B09D7AC15652247E691262 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B996B093A7B0236CBA836B1DB8F511F /* MFSecurity.framework */,
+				EF493EDD23AEE3F5692A0A08C8E78821 /* MFSecurityLib */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AE0F37BB04D2754847CC814EC19EEF8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B5DA2992E8A0877B10E76BA90C61B1 /* MFSecurityLib.debug.xcconfig */,
+				7816356937A0C49D9A5BDF76D22EDA99 /* MFSecurityLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MFSecurityLib";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2709D06C0964D73133761DEF34E3FB33 /* Development Pods */,
+				A09495C591B09D7AC15652247E691262 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DEEFC466D01504A18A45C363C4579FF8 /* Products */,
 				3A0BF77B661F400D9F82E22D7ADF6996 /* Targets Support Files */,
@@ -217,6 +206,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EF493EDD23AEE3F5692A0A08C8E78821 /* MFSecurityLib */ = {
+			isa = PBXGroup;
+			children = (
+				652E0B6378B5AB4EFF5AE14FC4448110 /* Frameworks */,
+				6A09EECD9390B73C885333B72DB3303A /* Pod */,
+				AE0F37BB04D2754847CC814EC19EEF8D /* Support Files */,
+			);
+			name = MFSecurityLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -228,11 +228,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59B539E311ACBA22F409F5132FD6080A /* Headers */ = {
+		6DD9E9A4B12D3B60E7B3D8B41C7B6EAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600A2332E0A7D90018F00057B50C5106 /* Pods-MFSecurityLibPro_Example-umbrella.h in Headers */,
+				E03F1976D687DEEB45CBF2E3F19E309B /* Pods-MFSecurityLibPro_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,17 +260,17 @@
 		};
 		75DB5027437304502BB2041848C5EF1A /* Pods-MFSecurityLibPro_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5023D8E4C932288090B460D70BF13C24 /* Build configuration list for PBXNativeTarget "Pods-MFSecurityLibPro_Example" */;
+			buildConfigurationList = 1190FF17482C150813BE91D329145CE4 /* Build configuration list for PBXNativeTarget "Pods-MFSecurityLibPro_Example" */;
 			buildPhases = (
-				59B539E311ACBA22F409F5132FD6080A /* Headers */,
-				B677E56DDD500F7086BC24633C66BE6D /* Sources */,
-				4063E2DE032D27A50C405A5C8006EF1D /* Frameworks */,
-				F69729856040D50BD794695D675A5B05 /* Resources */,
+				6DD9E9A4B12D3B60E7B3D8B41C7B6EAA /* Headers */,
+				CA01FE7E289D5CA21D823132C83F952C /* Sources */,
+				52725ACA844F688A986F103C8ECE342A /* Frameworks */,
+				40D92B051D024662BEFBC8B48C6DA075 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DDEAFB81FD1CE25D820BE36F0D2605C8 /* PBXTargetDependency */,
+				2379EF21BB6EC60106D30A8456DF1E45 /* PBXTargetDependency */,
 			);
 			name = "Pods-MFSecurityLibPro_Example";
 			productName = Pods_MFSecurityLibPro_Example;
@@ -299,7 +299,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65558C322AD2675CD26AF1FA94F66E97 /* MFSecurityLibPro */,
+				CFF87F2D8ADDD1E06B104AAFFA7C829E /* MFSecurityLib */,
 				75DB5027437304502BB2041848C5EF1A /* Pods-MFSecurityLibPro_Example */,
 				5F49DEA4621408345B4B6F231A261422 /* Pods-MFSecurityLibPro_Tests */,
 			);
@@ -314,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69729856040D50BD794695D675A5B05 /* Resources */ = {
+		40D92B051D024662BEFBC8B48C6DA075 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,11 +324,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B677E56DDD500F7086BC24633C66BE6D /* Sources */ = {
+		CA01FE7E289D5CA21D823132C83F952C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3505D1CC27F4B69FEDD0DC0D84EC6EF2 /* Pods-MFSecurityLibPro_Example-dummy.m in Sources */,
+				2D43BC069B6B66EDB1FDE0290AF1C731 /* Pods-MFSecurityLibPro_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,38 +343,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2379EF21BB6EC60106D30A8456DF1E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MFSecurityLib;
+			target = CFF87F2D8ADDD1E06B104AAFFA7C829E /* MFSecurityLib */;
+			targetProxy = AC040F7C5B8AC5A37F0A2312BF0AA5D5 /* PBXContainerItemProxy */;
+		};
 		DB1C30E35E686217B78F5047127F723F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MFSecurityLibPro_Example";
 			target = 75DB5027437304502BB2041848C5EF1A /* Pods-MFSecurityLibPro_Example */;
 			targetProxy = E16E4F62B636F65C2E812D0653163693 /* PBXContainerItemProxy */;
 		};
-		DDEAFB81FD1CE25D820BE36F0D2605C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MFSecurityLibPro;
-			target = 65558C322AD2675CD26AF1FA94F66E97 /* MFSecurityLibPro */;
-			targetProxy = 7DBD11E0F88D271B3F16D0CDAC7B9189 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		162BF4DF9C177279779676028078EC56 /* Debug */ = {
+		299668C3AF4661169256298FEE851CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE72FEB310238A186AAFE2E9C37AE180 /* MFSecurityLibPro.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2C32A5EF6D063DADE3991F646A8C1540 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EE3D2CEEFA3717CB400A5EB8AFCD882 /* Pods-MFSecurityLibPro_Example.debug.xcconfig */;
+			baseConfigurationReference = D0CC86D7E1E2B3E000CFC70895752CDB /* Pods-MFSecurityLibPro_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -400,10 +386,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		31AACDFD56EFCBAE2EFF7950BE61217D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -438,39 +425,19 @@
 			};
 			name = Debug;
 		};
-		505B2466360C4171593FF5D231FEF343 /* Release */ = {
+		33E9347A1E2EA29F7D497AC4378F5016 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0CC86D7E1E2B3E000CFC70895752CDB /* Pods-MFSecurityLibPro_Example.release.xcconfig */;
+			baseConfigurationReference = 89B5DA2992E8A0877B10E76BA90C61B1 /* MFSecurityLib.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MFSecurityLibPro_Example/Pods-MFSecurityLibPro_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MFSecurityLibPro_Example/Pods-MFSecurityLibPro_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		61F2E54C1E69BE6440956369EDAD4A05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -503,6 +470,54 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64C7D524F9701AD7248770097C24BF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE3D2CEEFA3717CB400A5EB8AFCD882 /* Pods-MFSecurityLibPro_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MFSecurityLibPro_Example/Pods-MFSecurityLibPro_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MFSecurityLibPro_Example/Pods-MFSecurityLibPro_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A8765D1AA31C44BF34E383AD404AD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7816356937A0C49D9A5BDF76D22EDA99 /* MFSecurityLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -565,21 +580,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		BC92111F151842B0F99A8D8FDCF50F69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0C3EC032FAD651F8F331140F012F879 /* MFSecurityLibPro.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -652,29 +652,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1190FF17482C150813BE91D329145CE4 /* Build configuration list for PBXNativeTarget "Pods-MFSecurityLibPro_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C7D524F9701AD7248770097C24BF66 /* Debug */,
+				299668C3AF4661169256298FEE851CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24261FEEB6E3048CCB628A2B30330102 /* Build configuration list for PBXAggregateTarget "MFSecurityLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E9347A1E2EA29F7D497AC4378F5016 /* Debug */,
+				7A8765D1AA31C44BF34E383AD404AD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5023D8E4C932288090B460D70BF13C24 /* Build configuration list for PBXNativeTarget "Pods-MFSecurityLibPro_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C32A5EF6D063DADE3991F646A8C1540 /* Debug */,
-				505B2466360C4171593FF5D231FEF343 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4F557DBDC51CE42F364AA3E576CF10B /* Build configuration list for PBXAggregateTarget "MFSecurityLibPro" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				162BF4DF9C177279779676028078EC56 /* Debug */,
-				BC92111F151842B0F99A8D8FDCF50F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

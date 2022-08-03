@@ -1,16 +1,16 @@
 PODS:
-  - MFSecurityLibPro (1.0.0)
+  - MFSecurityLib (1.0.1)
 
 DEPENDENCIES:
-  - MFSecurityLibPro (from `../`)
+  - MFSecurityLib (from `../`)
 
 EXTERNAL SOURCES:
-  MFSecurityLibPro:
+  MFSecurityLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MFSecurityLibPro: a379643e8bae586e6993c68382e5429fdc7f91e9
+  MFSecurityLib: b197349edf031b3c3cd8f951e1e5025afd59f8a4
 
-PODFILE CHECKSUM: eaf60a0b54a6ef75ae34762835ab8540cf7664a7
+PODFILE CHECKSUM: 290c14d6c853b024d0a1678760a08c2a054ebc22
 
 COCOAPODS: 1.11.2

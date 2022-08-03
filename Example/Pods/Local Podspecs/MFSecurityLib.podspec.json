@@ -1,0 +1,30 @@
+{
+  "name": "MFSecurityLib",
+  "version": "1.0.1",
+  "summary": "A short description of MFSecurityLibPro.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/achaoacwang/MFSecurityLibPro",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "achaoacwang": "achaoacwang@tencent.com"
+  },
+  "source": {
+    "git": "git@github.com:achaoac/MFSecurityLibPro.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "MFSecurityLibPro/Classes/MFSecurity.framework"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}

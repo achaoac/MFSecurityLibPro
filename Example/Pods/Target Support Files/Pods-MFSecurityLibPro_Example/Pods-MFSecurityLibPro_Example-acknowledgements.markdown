@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## MFSecurityLibPro
+## MFSecurityLib
 
 Copyright (c) 2022 achaoacwang <achaoacwang@tencent.com>
 

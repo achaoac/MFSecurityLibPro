@@ -1,6 +1,0 @@
-framework module MFSecurityLibPro {
-  umbrella header "MFSecurityLibPro-umbrella.h"
-
-  export *
-  module * { export * }
-}
