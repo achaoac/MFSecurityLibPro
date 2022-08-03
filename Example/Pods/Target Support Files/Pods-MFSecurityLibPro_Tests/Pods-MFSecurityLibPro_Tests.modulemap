@@ -1,0 +1,6 @@
+framework module Pods_MFSecurityLibPro_Tests {
+  umbrella header "Pods-MFSecurityLibPro_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_MFSecurityLibPro_Example {
+  umbrella header "Pods-MFSecurityLibPro_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

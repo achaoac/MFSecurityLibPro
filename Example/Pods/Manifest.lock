@@ -1,0 +1,16 @@
+PODS:
+  - MFSecurityLibPro (1.0.0)
+
+DEPENDENCIES:
+  - MFSecurityLibPro (from `../`)
+
+EXTERNAL SOURCES:
+  MFSecurityLibPro:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MFSecurityLibPro: a379643e8bae586e6993c68382e5429fdc7f91e9
+
+PODFILE CHECKSUM: eaf60a0b54a6ef75ae34762835ab8540cf7664a7
+
+COCOAPODS: 1.11.2

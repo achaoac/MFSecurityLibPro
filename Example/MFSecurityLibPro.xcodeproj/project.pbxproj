@@ -62,11 +62,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		899798A881E7C0DBD564488E /* Pods-MFSecurityLibPro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSecurityLibPro_Example.debug.xcconfig"; path = "Target Support Files/Pods-MFSecurityLibPro_Example/Pods-MFSecurityLibPro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		977677F1F0A0ADBD0365C674 /* Pods-MFSecurityLibPro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSecurityLibPro_Example.release.xcconfig"; path = "Target Support Files/Pods-MFSecurityLibPro_Example/Pods-MFSecurityLibPro_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A1AC5429690E7E337C07B3AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A1AC5429690E7E337C07B3AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BDB752216A2F5020C7C8A1E2 /* Pods-MFSecurityLibPro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSecurityLibPro_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MFSecurityLibPro_Tests/Pods-MFSecurityLibPro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F0DC2FC3301F6962B8A531B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0DC2FC3301F6962B8A531B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F190BB2DD7A01884B4FC19DA /* Pods-MFSecurityLibPro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSecurityLibPro_Tests.release.xcconfig"; path = "Target Support Files/Pods-MFSecurityLibPro_Tests/Pods-MFSecurityLibPro_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2554A9665AD0327C6A25F27 /* MFSecurityLibPro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MFSecurityLibPro.podspec; path = ../MFSecurityLibPro.podspec; sourceTree = "<group>"; };
+		F2554A9665AD0327C6A25F27 /* MFSecurityLibPro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MFSecurityLibPro.podspec; path = ../MFSecurityLibPro.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				BDB752216A2F5020C7C8A1E2 /* Pods-MFSecurityLibPro_Tests.debug.xcconfig */,
 				F190BB2DD7A01884B4FC19DA /* Pods-MFSecurityLibPro_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				F7AFD6F0CF1D9FAD70EE96E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -337,24 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F7AFD6F0CF1D9FAD70EE96E5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MFSecurityLibPro_Example/Pods-MFSecurityLibPro_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MFSecurityLibPro/MFSecurityLibPro.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MFSecurityLibPro.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MFSecurityLibPro_Example/Pods-MFSecurityLibPro_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
